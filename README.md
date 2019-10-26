@@ -9,3 +9,7 @@
 ### 1.3 制作路径txt->Making a txt.py
 ### 1.4 计算均值和标准差->calculate mean,std.py
 ## 2 训练和验证->mean.py
+**参考资料：**
+《深度学习之 PyTorch 实战计算机视觉》作者：唐进民
+《PyTorch 模型训练实用教程》作者：余霆嵩
+https://blog.csdn.net/weixin_42854038/article/details/81332779
