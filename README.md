@@ -8,4 +8,4 @@
 ### 1.2 数据集划分->Dataset_divided.py
 ### 1.3 制作路径txt->Making a txt.py
 ### 1.4 计算均值和标准差->calculate mean,std.py
-### 2 训练和验证->mean.py
+## 2 训练和验证->mean.py
