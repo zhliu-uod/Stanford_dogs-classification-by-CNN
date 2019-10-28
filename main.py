@@ -86,13 +86,11 @@ print(torch.cuda.is_available())
 use_gpu = torch.cuda.is_available()
 
 # log
-
 result_dir = os.path.join("..", "..", "Result")
 time_open = time.time()
 
 # ------------------------------------ step 2/6 : 加载数据 -------------------------------------------------------------------
 # 数据预处理设置
-
 normMean = [0.4760485, 0.45188636, 0.39048073]  # 通过样本计算得到的均值
 normStd = [0.26165572, 0.25607935, 0.26033863]  # 通过样本计算得到的标准差
 
@@ -111,7 +109,6 @@ validTransform = transforms.Compose([
 ])
 
 # 构建MyDataset
-
 class MyDataset(Dataset):
     def __init__(self, txt_path, transform=None, target_transform=None):
         fh = open(txt_path, 'r')
